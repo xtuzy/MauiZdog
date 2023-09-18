@@ -12,7 +12,7 @@ namespace Zdog.Maui.Render
     public class ZdogDrawable : IAndroidDrawable
     {
         public Illustration illo = new Illustration();
-        protected Animation animator = null;
+        //protected Animation animator = null;
         public override void draw(SKCanvas canvas)
         {
             illo.updateRenderGraph(canvas);

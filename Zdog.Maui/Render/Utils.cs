@@ -1,6 +1,4 @@
-﻿using Microsoft.Maui.Controls.Shapes;
-
-namespace Zdog.Maui.Render
+﻿namespace Zdog.Maui.Render
 {
     public static class Utils
     {

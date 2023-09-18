@@ -1,6 +1,6 @@
 ﻿using Zdog.Maui.Extensions;
 using SkiaSharp;
-using SkiaSharp.Views.Maui;
+using Microsoft.Maui.Graphics.Skia;
 
 namespace Zdog.Maui.Render
 {
@@ -129,7 +129,7 @@ namespace Zdog.Maui.Render
             }
             set
             {
-                paint.Color = Color.FromInt(value).ToSKColor();
+                paint.Color = Color.FromInt(value).AsSKColor();
                 paint.Style = SKPaintStyle.Stroke;
             }
         }
